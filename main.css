@@ -14,4 +14,6 @@ body{
     color:var(--glb-font-color-dark);
     font-size: var(--glb-font-size);
     font-weight: 400;
+    color: black;
 }
+

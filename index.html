@@ -1,23 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian Jiménez C.</title>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet">
 
+
+    <!-- CUSTOM LINK -->
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header>
-        <nav></nav>
+    <header class="mt-2">
+        <div class="container">
+            <div class="p-5 text-star bg-light">
+                <div class="mb-3 h1">DESARROLLO WEB - CODERHOUSE</div>
+                <div class="mb-3 h2">Bienvenidos a mi WorkBook</div>
+                <hr>
+                <div class="mb-3 h3">Christian Jiménez Calvo</div>
+                <!-- <a class="btn btn-primary" href="" role="button">Call to action</a> -->
+                <div class="mb-3 lead">En esta página podrás revisar todos los proyectos que estoy presentando para el curso.</div>
+            </div>
+        </div>
     </header>
-    <main>
+    <main class="mt-2">
         <section>
+            <div class="container">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span class="fs-5 fw-bold">Entrega N° 1 :: Wireframe y/o proptotipo de la web y el maquedato en HTML y CSS.</span>
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-mdb-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ol class="list-group list-group-light list-group-numbered">
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="https://drive.google.com/file/d/1SpC3q9P4t1vaC9BBdemYyx05jJWD8HnJ/view?usp=sharing" target="_blank">Wireframe en PDF</a>
+                                            </div>
+                                            Aquí podrás descargar el boceto inicial de la página web.
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="https://christianjjc.github.io/DW-ProyFinal-v01" target="_blank">Pagina Web del Proyecto - Ver01.01</a>
+                                            </div>
+                                            Enlace directo a la página web colgada en GitHub.
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="https://drive.google.com/file/d/1-8VVZe5GfboCYubAUMDQe0MIQ3Y4Asfi/view?usp=sharing" target="_blank">Carpeta contenedora del proyecto - Ver01.01</a>
+                                            </div>
+                                            Empaquetado en ZIP para descargar el archivo completo.
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span class="fs-5 fw-bold">Entrega N° 2 :: Adicionando Flexbox, Frameworks y CSS avanzado.</span>
+                                    <span class="fs-6 ms-2">(Aún en desarrollo...)</span>
+                                </button>
+                        </div>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ol class="list-group list-group-light list-group-numbered">
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="https://christianjjc.github.io/proyectoMoro-v02" target="_blank">Pagina Web del Proyecto - Ver01.02</a>
+                                            </div>
+                                            Enlace directo a la página web colgada en GitHub.
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="#">Carpeta contenedora del proyecto - Ver01.02</a>
+                                            </div>
+                                            Empaquetado en ZIP para descargar el archivo completo.
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="#">COMMITs en Git</a>
+                                            </div>
+                                            Captura de pantalla con el LOG de git mostrando los commits realizados.
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="fs-5 fw-bold">Entrega N° 3 :: Responsive, SEO, SASS, Node Modules.</span>
+                                <span class="fs-6 ms-2">(No iniciado...)</span>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ol class="list-group list-group-light list-group-numbered">
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="#">Pagina Web del Proyecto - Ver01.03</a>
+                                            </div>
+                                            Enlace directo a la página web colgada en GitHub.
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="#">Carpeta contenedora del proyecto - Ver01.03</a>
+                                            </div>
+                                            Empaquetado en ZIP para descargar el archivo completo.
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                                        <div class="ms-2 me-auto">
+                                            <div>
+                                                <a href="#">COMMITs en Git</a>
+                                            </div>
+                                            Captura de pantalla con el LOG de git mostrando los commits realizados.
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="fixed-bottom">
+        <section ">
+            <div class="container">
+                <div class="bg-light text-dark py-3 px-2 text-center border">
+                    Todos los derechos reservados - <a href="#">CJJC</a>
+                </div>
+            </div>
+        </section>
     </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
 </body>
 </html>
